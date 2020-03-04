@@ -14,7 +14,7 @@ setup(
     use_scm_version={'write_to': '_version.py'},
     url='%doc% link',
     py_modules=['pytest_pylint_xdist_vcs', 'svn'],
-    entry_points={'pytest11': ['pylint = pytest_pylint_xdist_vcs']},
+    entry_points={'pytest11': ['pylint-xdist = pytest_pylint_xdist_vcs']},
     install_requires=INSTALL_REQS,
     setup_requires=['pytest-runner', 'setuptools_scm', 'setuptools>=24.2.0', 'pip>=9.0.0'],
     tests_require=['coverage'],
